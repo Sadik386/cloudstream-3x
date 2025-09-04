@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cpv_custom">தனிப்பயன்</string>
+    <string name="cpv_default_title">ஒரு வண்ணத்தைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="cpv_presets">முன்னமைவுகள்</string>
+    <string name="cpv_select">தேர்ந்தெடு</string>
+    <string name="cpv_transparency">வெளிப்படைத்தன்மை</string>
+</resources>

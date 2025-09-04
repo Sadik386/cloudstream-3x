@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cpv_custom">Εθιμο</string>
+    <string name="cpv_default_title">Επιλέξτε ένα χρώμα</string>
+    <string name="cpv_presets">Προεπιλογές</string>
+    <string name="cpv_select">Επιλέγω</string>
+    <string name="cpv_transparency">Διαφάνεια</string>
+</resources>

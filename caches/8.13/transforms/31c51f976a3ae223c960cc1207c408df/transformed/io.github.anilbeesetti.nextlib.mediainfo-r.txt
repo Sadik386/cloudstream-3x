@@ -1,0 +1,1 @@
+io.github.anilbeesetti.nextlib.mediainfo

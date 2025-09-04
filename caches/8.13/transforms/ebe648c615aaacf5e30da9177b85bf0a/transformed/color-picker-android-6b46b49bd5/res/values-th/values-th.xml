@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cpv_custom">กำหนดเอง</string>
+    <string name="cpv_default_title">เลือกสี</string>
+    <string name="cpv_presets">ค่าที่ตั้งล่วงหน้า</string>
+    <string name="cpv_select">เลือก</string>
+    <string name="cpv_transparency">ความโปร่งใส</string>
+</resources>

@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.squareup.okhttp3",
+    "module": "okhttp-dnsoverhttps",
+    "version": "5.0.0-alpha.12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "5.0.0-alpha.12"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "okhttp-dnsoverhttps-5.0.0-alpha.12.jar",
+          "url": "okhttp-dnsoverhttps-5.0.0-alpha.12.jar",
+          "size": 18269,
+          "sha512": "553f54b736293ded20d5abcc655a0ef607369f3dc2d7538b5a11aebd77b312887ecb8a04c5318c4a7c6f16d0a5709465a622d58fe04ad4e0d0ad049a2e367f00",
+          "sha256": "82bee870570b738e7c0b6814fdf6f70cefeb014c4cae1452b6ae4ba264ea3402",
+          "sha1": "7f514f5e7e347c5a8fdc6e599caef3c3d94fe62b",
+          "md5": "360f5ab97e489b1490116eaff8b638fd"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "5.0.0-alpha.12"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "okhttp-dnsoverhttps-5.0.0-alpha.12.jar",
+          "url": "okhttp-dnsoverhttps-5.0.0-alpha.12.jar",
+          "size": 18269,
+          "sha512": "553f54b736293ded20d5abcc655a0ef607369f3dc2d7538b5a11aebd77b312887ecb8a04c5318c4a7c6f16d0a5709465a622d58fe04ad4e0d0ad049a2e367f00",
+          "sha256": "82bee870570b738e7c0b6814fdf6f70cefeb014c4cae1452b6ae4ba264ea3402",
+          "sha1": "7f514f5e7e347c5a8fdc6e599caef3c3d94fe62b",
+          "md5": "360f5ab97e489b1490116eaff8b638fd"
+        }
+      ]
+    }
+  ]
+}

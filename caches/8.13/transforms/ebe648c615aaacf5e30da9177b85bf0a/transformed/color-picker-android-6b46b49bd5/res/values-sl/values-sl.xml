@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cpv_custom">Po meri</string>
+    <string name="cpv_default_title">Izberite barvo</string>
+    <string name="cpv_presets">Prednastavitve</string>
+    <string name="cpv_select">Izberite</string>
+    <string name="cpv_transparency">Preglednost</string>
+</resources>

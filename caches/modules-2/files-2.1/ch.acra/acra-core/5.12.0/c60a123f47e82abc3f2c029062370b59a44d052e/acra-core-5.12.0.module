@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ch.acra",
+    "module": "acra-core",
+    "version": "5.12.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "acra-core-5.12.0.aar",
+          "url": "acra-core-5.12.0.aar",
+          "size": 293350,
+          "sha512": "5f06311a290101eb2df3d933b5db6ccd83d8fe46a6895aee023e043d84e00058a66e64ae784b3c557569bd39103e599515e2590821ec0f8ca40a9513f49a580b",
+          "sha256": "46f4c7fb0297e8086180cc0f484cf1d098544ff326e9ecb3284e9e00ac3b0475",
+          "sha1": "bf3ed4c87dc683da100d24630c30c20310d0ad6b",
+          "md5": "0a87580a8f7320a66b7236385034ad99"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.auto.service",
+          "module": "auto-service",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "acra-core-5.12.0.aar",
+          "url": "acra-core-5.12.0.aar",
+          "size": 293350,
+          "sha512": "5f06311a290101eb2df3d933b5db6ccd83d8fe46a6895aee023e043d84e00058a66e64ae784b3c557569bd39103e599515e2590821ec0f8ca40a9513f49a580b",
+          "sha256": "46f4c7fb0297e8086180cc0f484cf1d098544ff326e9ecb3284e9e00ac3b0475",
+          "sha1": "bf3ed4c87dc683da100d24630c30c20310d0ad6b",
+          "md5": "0a87580a8f7320a66b7236385034ad99"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "acra-core-5.12.0-sources.jar",
+          "url": "acra-core-5.12.0-sources.jar",
+          "size": 116558,
+          "sha512": "09499e626c50c495bdb6e629d52e4a98ffd94d83edf155f37031967dd2942f0043277bf7223a88d381e67334a5cce0da1a8308f5ac211cfeb9d6f1b30d335de2",
+          "sha256": "4e976ad8f9dd0382d4b1d57eea2bf2c4119d286eff5eceb0ef613562f530e067",
+          "sha1": "f8430c29b7de7516642bcc59ab540e16aab8e615",
+          "md5": "683152dfe494f81bf1911424c296e24f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "acra-core-5.12.0-javadoc.jar",
+          "url": "acra-core-5.12.0-javadoc.jar",
+          "size": 739964,
+          "sha512": "7aed3b92e50d9eccf35e89503e8d7a8032924cf826811859a7c05f0fc30c32d7e157ec0792da70f43f193158bb126a8d26ae338a2129fa1c7419493c05961c20",
+          "sha256": "41bcefeb8e33ce4e8e6ffc2077a2e2b44148c84e52b7c56354c6803a61fe493f",
+          "sha1": "7ca7b7a0c27481591191a7e8959ff9befe13e674",
+          "md5": "f9073f3f2f770e24d8ec5fb5471e5927"
+        }
+      ]
+    }
+  ]
+}

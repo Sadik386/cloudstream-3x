@@ -1,0 +1,9 @@
+int attr previewAnimationEnabled 0x0
+int attr previewAutoHide 0x0
+int attr previewEnabled 0x0
+int attr previewFrameLayout 0x0
+int[] styleable PreviewTimeBar { 0x0, 0x0, 0x0, 0x0 }
+int styleable PreviewTimeBar_previewAnimationEnabled 0
+int styleable PreviewTimeBar_previewAutoHide 1
+int styleable PreviewTimeBar_previewEnabled 2
+int styleable PreviewTimeBar_previewFrameLayout 3

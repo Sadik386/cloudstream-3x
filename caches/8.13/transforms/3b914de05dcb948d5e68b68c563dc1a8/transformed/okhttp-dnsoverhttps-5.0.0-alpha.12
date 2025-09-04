@@ -1,0 +1,6 @@
+okhttp3.dnsoverhttps.BootstrapDns
+okhttp3.dnsoverhttps.DnsOverHttps
+okhttp3.dnsoverhttps.DnsOverHttps$Builder
+okhttp3.dnsoverhttps.DnsOverHttps$Companion
+okhttp3.dnsoverhttps.DnsOverHttps$executeRequests$1
+okhttp3.dnsoverhttps.DnsRecordCodec

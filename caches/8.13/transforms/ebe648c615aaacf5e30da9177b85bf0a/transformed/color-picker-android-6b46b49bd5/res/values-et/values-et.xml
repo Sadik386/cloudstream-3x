@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cpv_custom">Kohandatud</string>
+    <string name="cpv_default_title">Valige värv</string>
+    <string name="cpv_presets">Eelseaded</string>
+    <string name="cpv_select">Valige</string>
+    <string name="cpv_transparency">Läbipaistvus</string>
+</resources>

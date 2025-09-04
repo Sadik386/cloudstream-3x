@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cpv_custom">Pasgemaak</string>
+    <string name="cpv_default_title">Kies \'n kleur</string>
+    <string name="cpv_presets">Voorinstellings</string>
+    <string name="cpv_select">Kies</string>
+    <string name="cpv_transparency">Deursigtigheid</string>
+</resources>

@@ -1,0 +1,500 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.g0dkar",
+    "module": "qrcode-kotlin",
+    "version": "4.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "qrcode-kotlin-metadata-4.3.0.jar",
+          "url": "qrcode-kotlin-4.3.0.jar",
+          "size": 14659,
+          "sha512": "4d2b624c94e34577c401390a13d6797000334408e85a14ad7d5624c037bae9b27c1dda8129b27991c0593c575bdc7afbc906923d87a8761070fd5b05601c840f",
+          "sha256": "3fc6497fb6ea19505a539fb0b7995cfab48a42f2a17fc223d63373df3725afc0",
+          "sha1": "ec5c74ec9a3a29c37e933620f93b6b3b95d132fc",
+          "md5": "63636501d5279d0cc6619fb5efa2d82b"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "qrcode-kotlin-kotlin-4.3.0-sources.jar",
+          "url": "qrcode-kotlin-4.3.0-sources.jar",
+          "size": 42702,
+          "sha512": "7f9cc2086b14abd8df31e14ea7ec9eeb46aa9b35145bcb9aa94171a3a0d17fc2d8adac7ccfc38c264ea2af003e9e33ca511159644b5ab02601418d658db087eb",
+          "sha256": "174f63f473cabc4ab0a24b7d0cad71af28e7103472c358d7192030681467f2e9",
+          "sha1": "ca67798d3ada9d31093aaedb90fe8676e4f34e81",
+          "md5": "9ea77d5e4ae88c1af0ad747df5d626d8"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../qrcode-kotlin-android/4.3.0/qrcode-kotlin-android-4.3.0.module",
+        "group": "io.github.g0dkar",
+        "module": "qrcode-kotlin-android",
+        "version": "4.3.0"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../qrcode-kotlin-android/4.3.0/qrcode-kotlin-android-4.3.0.module",
+        "group": "io.github.g0dkar",
+        "module": "qrcode-kotlin-android",
+        "version": "4.3.0"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../qrcode-kotlin-android/4.3.0/qrcode-kotlin-android-4.3.0.module",
+        "group": "io.github.g0dkar",
+        "module": "qrcode-kotlin-android",
+        "version": "4.3.0"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../qrcode-kotlin-iosarm64/4.3.0/qrcode-kotlin-iosarm64-4.3.0.module",
+        "group": "io.github.g0dkar",
+        "module": "qrcode-kotlin-iosarm64",
+        "version": "4.3.0"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../qrcode-kotlin-iosarm64/4.3.0/qrcode-kotlin-iosarm64-4.3.0.module",
+        "group": "io.github.g0dkar",
+        "module": "qrcode-kotlin-iosarm64",
+        "version": "4.3.0"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../qrcode-kotlin-iosarm64/4.3.0/qrcode-kotlin-iosarm64-4.3.0.module",
+        "group": "io.github.g0dkar",
+        "module": "qrcode-kotlin-iosarm64",
+        "version": "4.3.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../qrcode-kotlin-iossimulatorarm64/4.3.0/qrcode-kotlin-iossimulatorarm64-4.3.0.module",
+        "group": "io.github.g0dkar",
+        "module": "qrcode-kotlin-iossimulatorarm64",
+        "version": "4.3.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../qrcode-kotlin-iossimulatorarm64/4.3.0/qrcode-kotlin-iossimulatorarm64-4.3.0.module",
+        "group": "io.github.g0dkar",
+        "module": "qrcode-kotlin-iossimulatorarm64",
+        "version": "4.3.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../qrcode-kotlin-iossimulatorarm64/4.3.0/qrcode-kotlin-iossimulatorarm64-4.3.0.module",
+        "group": "io.github.g0dkar",
+        "module": "qrcode-kotlin-iossimulatorarm64",
+        "version": "4.3.0"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../qrcode-kotlin-iosx64/4.3.0/qrcode-kotlin-iosx64-4.3.0.module",
+        "group": "io.github.g0dkar",
+        "module": "qrcode-kotlin-iosx64",
+        "version": "4.3.0"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../qrcode-kotlin-iosx64/4.3.0/qrcode-kotlin-iosx64-4.3.0.module",
+        "group": "io.github.g0dkar",
+        "module": "qrcode-kotlin-iosx64",
+        "version": "4.3.0"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../qrcode-kotlin-iosx64/4.3.0/qrcode-kotlin-iosx64-4.3.0.module",
+        "group": "io.github.g0dkar",
+        "module": "qrcode-kotlin-iosx64",
+        "version": "4.3.0"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../qrcode-kotlin-js/4.3.0/qrcode-kotlin-js-4.3.0.module",
+        "group": "io.github.g0dkar",
+        "module": "qrcode-kotlin-js",
+        "version": "4.3.0"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../qrcode-kotlin-js/4.3.0/qrcode-kotlin-js-4.3.0.module",
+        "group": "io.github.g0dkar",
+        "module": "qrcode-kotlin-js",
+        "version": "4.3.0"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../qrcode-kotlin-js/4.3.0/qrcode-kotlin-js-4.3.0.module",
+        "group": "io.github.g0dkar",
+        "module": "qrcode-kotlin-js",
+        "version": "4.3.0"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../qrcode-kotlin-jvm/4.3.0/qrcode-kotlin-jvm-4.3.0.module",
+        "group": "io.github.g0dkar",
+        "module": "qrcode-kotlin-jvm",
+        "version": "4.3.0"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../qrcode-kotlin-jvm/4.3.0/qrcode-kotlin-jvm-4.3.0.module",
+        "group": "io.github.g0dkar",
+        "module": "qrcode-kotlin-jvm",
+        "version": "4.3.0"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../qrcode-kotlin-jvm/4.3.0/qrcode-kotlin-jvm-4.3.0.module",
+        "group": "io.github.g0dkar",
+        "module": "qrcode-kotlin-jvm",
+        "version": "4.3.0"
+      }
+    },
+    {
+      "name": "tvosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../qrcode-kotlin-tvosarm64/4.3.0/qrcode-kotlin-tvosarm64-4.3.0.module",
+        "group": "io.github.g0dkar",
+        "module": "qrcode-kotlin-tvosarm64",
+        "version": "4.3.0"
+      }
+    },
+    {
+      "name": "tvosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../qrcode-kotlin-tvosarm64/4.3.0/qrcode-kotlin-tvosarm64-4.3.0.module",
+        "group": "io.github.g0dkar",
+        "module": "qrcode-kotlin-tvosarm64",
+        "version": "4.3.0"
+      }
+    },
+    {
+      "name": "tvosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../qrcode-kotlin-tvosarm64/4.3.0/qrcode-kotlin-tvosarm64-4.3.0.module",
+        "group": "io.github.g0dkar",
+        "module": "qrcode-kotlin-tvosarm64",
+        "version": "4.3.0"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../qrcode-kotlin-tvossimulatorarm64/4.3.0/qrcode-kotlin-tvossimulatorarm64-4.3.0.module",
+        "group": "io.github.g0dkar",
+        "module": "qrcode-kotlin-tvossimulatorarm64",
+        "version": "4.3.0"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../qrcode-kotlin-tvossimulatorarm64/4.3.0/qrcode-kotlin-tvossimulatorarm64-4.3.0.module",
+        "group": "io.github.g0dkar",
+        "module": "qrcode-kotlin-tvossimulatorarm64",
+        "version": "4.3.0"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../qrcode-kotlin-tvossimulatorarm64/4.3.0/qrcode-kotlin-tvossimulatorarm64-4.3.0.module",
+        "group": "io.github.g0dkar",
+        "module": "qrcode-kotlin-tvossimulatorarm64",
+        "version": "4.3.0"
+      }
+    },
+    {
+      "name": "tvosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../qrcode-kotlin-tvosx64/4.3.0/qrcode-kotlin-tvosx64-4.3.0.module",
+        "group": "io.github.g0dkar",
+        "module": "qrcode-kotlin-tvosx64",
+        "version": "4.3.0"
+      }
+    },
+    {
+      "name": "tvosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../qrcode-kotlin-tvosx64/4.3.0/qrcode-kotlin-tvosx64-4.3.0.module",
+        "group": "io.github.g0dkar",
+        "module": "qrcode-kotlin-tvosx64",
+        "version": "4.3.0"
+      }
+    },
+    {
+      "name": "tvosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../qrcode-kotlin-tvosx64/4.3.0/qrcode-kotlin-tvosx64-4.3.0.module",
+        "group": "io.github.g0dkar",
+        "module": "qrcode-kotlin-tvosx64",
+        "version": "4.3.0"
+      }
+    }
+  ]
+}

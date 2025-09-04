@@ -1,0 +1,3 @@
+org.acra
+bool acra_enable_job_service
+bool acra_enable_legacy_service

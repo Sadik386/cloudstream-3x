@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cpv_custom">Brugerdefinerede</string>
+    <string name="cpv_default_title">Vælg en farve</string>
+    <string name="cpv_presets">Forudindstillinger</string>
+    <string name="cpv_select">Vælg</string>
+    <string name="cpv_transparency">Gennemsigtighed</string>
+</resources>

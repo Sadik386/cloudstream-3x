@@ -1,0 +1,94 @@
+{
+  "formatVersion" : "1.1",
+  "createdBy" : {
+    "gradle" : {
+      "version" : "8.12"
+    }
+  },
+  "component" : {
+    "group" : "com.github.LagradOst",
+    "module" : "SafeFile",
+    "version" : "0.0.8",
+    "attributes" : {
+      "org.gradle.status" : "release"
+    }
+  },
+  "variants" : [ {
+    "name" : "releaseApiElements-published",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.usage" : "java-api",
+      "org.jetbrains.kotlin.platform.type" : "androidJvm"
+    },
+    "dependencies" : [ {
+      "group" : "org.jetbrains.kotlin",
+      "module" : "kotlin-stdlib-jdk8",
+      "version" : {
+        "requires" : "1.8.20"
+      }
+    } ],
+    "files" : [ {
+      "name" : "SafeFile-0.0.8.aar",
+      "url" : "SafeFile-0.0.8.aar",
+      "size" : 55436,
+      "sha512" : "bf5f75d6734714b4e07f8c8b82fa0272610a763b486ffd0991464ec680013421bc761df90326f89d15587e4f1667144c1fd061ed6c4153a126bf4bfb2d056c54",
+      "sha256" : "63feb2f30ed07ccfb52be5522e04ea5eb1888f0305eab9929e97f98ad6faed87",
+      "sha1" : "9dc457acb11ed55d149f9ff1c2e61d9c2d09ba6b",
+      "md5" : "39a6fd9fefb2e38818e069e837a95575"
+    } ]
+  }, {
+    "name" : "releaseRuntimeElements-published",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.usage" : "java-runtime",
+      "org.jetbrains.kotlin.platform.type" : "androidJvm"
+    },
+    "dependencies" : [ {
+      "group" : "com.github.tachiyomiorg",
+      "module" : "unifile",
+      "version" : {
+        "requires" : "a9de196cc7ec623d5641fbe0f768c082736ac84c"
+      }
+    }, {
+      "group" : "androidx.annotation",
+      "module" : "annotation-jvm",
+      "version" : {
+        "requires" : "1.9.1"
+      }
+    }, {
+      "group" : "org.jetbrains.kotlin",
+      "module" : "kotlin-stdlib-jdk8",
+      "version" : {
+        "requires" : "1.8.20"
+      }
+    } ],
+    "files" : [ {
+      "name" : "SafeFile-0.0.8.aar",
+      "url" : "SafeFile-0.0.8.aar",
+      "size" : 55436,
+      "sha512" : "bf5f75d6734714b4e07f8c8b82fa0272610a763b486ffd0991464ec680013421bc761df90326f89d15587e4f1667144c1fd061ed6c4153a126bf4bfb2d056c54",
+      "sha256" : "63feb2f30ed07ccfb52be5522e04ea5eb1888f0305eab9929e97f98ad6faed87",
+      "sha1" : "9dc457acb11ed55d149f9ff1c2e61d9c2d09ba6b",
+      "md5" : "39a6fd9fefb2e38818e069e837a95575"
+    } ]
+  }, {
+    "name" : "releaseSourcesElements-published",
+    "attributes" : {
+      "org.gradle.category" : "documentation",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.docstype" : "sources",
+      "org.gradle.libraryelements" : "jar",
+      "org.gradle.usage" : "java-runtime",
+      "org.jetbrains.kotlin.platform.type" : "androidJvm"
+    },
+    "files" : [ {
+      "name" : "SafeFile-0.0.8.jar",
+      "url" : "SafeFile-0.0.8.jar",
+      "size" : 35569,
+      "sha512" : "8c112cf9b1a9b8ab58a66b3e41a19a23c3b5cb6132934b5ba7f8f8d7d85b3057a043db3c15f0d26a849b6a913ab61e868cc2df120de1355a54aa9905c772359b",
+      "sha256" : "a431180ab320b7f6f343bda71b206fbf4d02a733ff7949f128e1945964d937b3",
+      "sha1" : "e7b3075d263bbe226227aea24f008c72f3fa0ad1",
+      "md5" : "f94fe82be6f7ff73d974a57fe0485068"
+    } ]
+  } ]
+}

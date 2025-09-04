@@ -1,0 +1,52 @@
+{
+  "formatVersion" : "1.1",
+  "createdBy" : {
+    "gradle" : {
+      "version" : "6.5",
+      "buildId" : "jfkwepueibdi5ohwlddfd2srym"
+    }
+  },
+  "component" : {
+    "group" : "com.github.tachiyomiorg",
+    "module" : "unifile",
+    "version" : "a9de196cc7ec623d5641fbe0f768c082736ac84c",
+    "attributes" : {
+      "org.gradle.status" : "release"
+    }
+  },
+  "variants" : [ {
+    "name" : "releaseApiPublication",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.libraryelements" : "aar",
+      "org.gradle.usage" : "java-api"
+    },
+    "files" : [ {
+      "name" : "unifile-a9de196cc7ec623d5641fbe0f768c082736ac84c.aar",
+      "url" : "unifile-a9de196cc7ec623d5641fbe0f768c082736ac84c.aar",
+      "size" : 37660,
+      "sha512" : "851de504c769db12f65c62c5722abcefd34c9e963725294eb40ad81b729accdb2066fa7a9d0ff8504c386730847d1d4fa1e2ce29b411c53ab11aaf76d98157d0",
+      "sha256" : "d9e3bd172755ee2c7e1a25eb2028954e8a11756f355da849f61f0c3c895537b6",
+      "sha1" : "615ec5cfedd7887ef140c1b612dba32b7c0402dc",
+      "md5" : "8ada591d144d253d378ab8bbeee50dc2"
+    } ]
+  }, {
+    "name" : "releaseRuntimePublication",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.libraryelements" : "aar",
+      "org.gradle.usage" : "java-runtime"
+    },
+    "files" : [ {
+      "name" : "unifile-a9de196cc7ec623d5641fbe0f768c082736ac84c.aar",
+      "url" : "unifile-a9de196cc7ec623d5641fbe0f768c082736ac84c.aar",
+      "size" : 37660,
+      "sha512" : "851de504c769db12f65c62c5722abcefd34c9e963725294eb40ad81b729accdb2066fa7a9d0ff8504c386730847d1d4fa1e2ce29b411c53ab11aaf76d98157d0",
+      "sha256" : "d9e3bd172755ee2c7e1a25eb2028954e8a11756f355da849f61f0c3c895537b6",
+      "sha1" : "615ec5cfedd7887ef140c1b612dba32b7c0402dc",
+      "md5" : "8ada591d144d253d378ab8bbeee50dc2"
+    } ]
+  } ]
+}
