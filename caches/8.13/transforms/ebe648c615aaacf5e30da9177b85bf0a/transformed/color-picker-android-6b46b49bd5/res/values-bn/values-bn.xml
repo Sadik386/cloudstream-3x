@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="cpv_custom">কাস্টম</string>
-    <string name="cpv_default_title">একটি রঙ নির্বাচন করুন</string>
-    <string name="cpv_presets">প্রিসেট</string>
-    <string name="cpv_select">নির্বাচন করুন</string>
-    <string name="cpv_transparency">স্বচ্ছতা</string>
-</resources>

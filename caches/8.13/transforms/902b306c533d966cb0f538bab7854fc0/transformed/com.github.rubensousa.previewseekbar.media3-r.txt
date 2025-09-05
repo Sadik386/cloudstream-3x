@@ -1,6 +1,0 @@
-com.github.rubensousa.previewseekbar.media3
-attr previewAnimationEnabled
-attr previewAutoHide
-attr previewEnabled
-attr previewFrameLayout
-styleable PreviewTimeBar previewAnimationEnabled previewAutoHide previewEnabled previewFrameLayout

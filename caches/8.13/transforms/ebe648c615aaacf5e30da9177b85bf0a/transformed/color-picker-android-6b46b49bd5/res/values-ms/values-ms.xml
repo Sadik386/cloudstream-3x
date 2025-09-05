@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="cpv_custom">Adat</string>
-    <string name="cpv_default_title">Pilih Warna</string>
-    <string name="cpv_presets">Pratetap</string>
-    <string name="cpv_select">Pilih</string>
-    <string name="cpv_transparency">Ketelusan</string>
-</resources>

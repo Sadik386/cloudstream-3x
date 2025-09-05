@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="cpv_custom">Personalizat</string>
-    <string name="cpv_default_title">Selectați o culoare</string>
-    <string name="cpv_presets">Presetări</string>
-    <string name="cpv_select">Selectați</string>
-    <string name="cpv_transparency">Transparenţă</string>
-</resources>

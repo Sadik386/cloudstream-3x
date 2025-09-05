@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <declare-styleable name="PreviewTimeBar">
-        <attr format="reference" name="previewFrameLayout"/>
-        <attr format="boolean" name="previewAnimationEnabled"/>
-        <attr format="boolean" name="previewEnabled"/>
-        <attr format="boolean" name="previewAutoHide"/>
-    </declare-styleable>
-</resources>

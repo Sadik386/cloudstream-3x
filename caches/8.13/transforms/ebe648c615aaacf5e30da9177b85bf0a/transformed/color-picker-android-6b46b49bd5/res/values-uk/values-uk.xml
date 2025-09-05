@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="cpv_custom">Custom</string>
-    <string name="cpv_default_title">Виберіть колір</string>
-    <string name="cpv_presets">Предустановки</string>
-    <string name="cpv_select">Виберіть</string>
-    <string name="cpv_transparency">Прозорість</string>
-</resources>

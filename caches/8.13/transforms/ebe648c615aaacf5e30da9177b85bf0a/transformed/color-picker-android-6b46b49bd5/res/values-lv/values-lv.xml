@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="cpv_custom">Pielāgots</string>
-    <string name="cpv_default_title">Izvēlieties krāsu</string>
-    <string name="cpv_presets">Sākotnējie iestatījumi</string>
-    <string name="cpv_select">Izvēlieties</string>
-    <string name="cpv_transparency">Pārredzamība</string>
-</resources>

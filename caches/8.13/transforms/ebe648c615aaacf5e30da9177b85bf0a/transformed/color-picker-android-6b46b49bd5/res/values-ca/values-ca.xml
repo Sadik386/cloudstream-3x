@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="cpv_custom">Personalitzat</string>
-    <string name="cpv_default_title">Seleccioneu un Color</string>
-    <string name="cpv_presets">Presets</string>
-    <string name="cpv_select">Seleccioneu</string>
-    <string name="cpv_transparency">Transparència</string>
-</resources>

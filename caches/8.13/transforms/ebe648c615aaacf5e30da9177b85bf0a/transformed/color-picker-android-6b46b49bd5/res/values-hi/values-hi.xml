@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="cpv_custom">रिवाज़</string>
-    <string name="cpv_default_title">एक रंग चुनें</string>
-    <string name="cpv_presets">प्रीसेट</string>
-    <string name="cpv_select">चुनना</string>
-    <string name="cpv_transparency">पारदर्शिता</string>
-</resources>

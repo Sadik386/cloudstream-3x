@@ -639,14 +639,10 @@ open class FullScreenPlayer : AbstractPlayerFragment() {
                 "1.4x",
                 "1.5x",
                 "1.75x",
-                "2x",
-                "2.15",
-                "2.5x",
-                "2.75",
-                "3x"
+                "2x"
             )
         val speedsNumbers =
-            listOf(0.5f, 0.75f, 0.85f, 1f, 1.15f, 1.25f, 1.4f, 1.5f, 1.75f, 2f,2.15f,2.5f,2.75f,3f)
+            listOf(0.5f, 0.75f, 0.85f, 1f, 1.15f, 1.25f, 1.4f, 1.5f, 1.75f, 2f)
         val speedIndex = speedsNumbers.indexOf(player.getPlaybackSpeed())
 
         activity?.let { act ->
@@ -1040,7 +1036,7 @@ open class FullScreenPlayer : AbstractPlayerFragment() {
     val holdhandler = Handler(Looper.getMainLooper())
     var hasTriggeredSpeedUp = false
     val holdRunnable = Runnable {
-        player.setPlaybackSpeed(4.0f)
+        player.setPlaybackSpeed(2.0f)
         playerBinding?.playerSpeedupButton?.isGone = false
         hasTriggeredSpeedUp = true
     }

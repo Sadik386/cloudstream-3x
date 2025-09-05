@@ -1,7 +1,0 @@
-org.mozilla.javascript.engine.BindingsObject
-org.mozilla.javascript.engine.Builtins
-org.mozilla.javascript.engine.RhinoCompiledScript
-org.mozilla.javascript.engine.RhinoInvocationHandler
-org.mozilla.javascript.engine.RhinoScriptEngine
-org.mozilla.javascript.engine.RhinoScriptEngine$CtxFactory
-org.mozilla.javascript.engine.RhinoScriptEngineFactory

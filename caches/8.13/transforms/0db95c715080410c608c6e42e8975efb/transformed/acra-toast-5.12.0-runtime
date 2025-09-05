@@ -1,8 +1,0 @@
-org.acra.config.ToastConfiguration
-org.acra.config.ToastConfigurationBuilder
-org.acra.config.ToastConfigurationBuilder$special$$inlined$observable$1
-org.acra.config.ToastConfigurationBuilder$special$$inlined$observable$2
-org.acra.config.ToastConfigurationDslKt
-org.acra.config.ToastConfigurationKt
-org.acra.interaction.ToastInteraction
-org.acra.toast.BuildConfig

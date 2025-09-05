@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="cpv_custom">Phong tục</string>
-    <string name="cpv_default_title">Chọn một màu</string>
-    <string name="cpv_presets">cài đặt trước</string>
-    <string name="cpv_select">Lựa chọn</string>
-    <string name="cpv_transparency">Minh bạch</string>
-</resources>

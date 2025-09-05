@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="cpv_custom">Обичај</string>
-    <string name="cpv_default_title">Изаберите боју</string>
-    <string name="cpv_presets">Пресетс</string>
-    <string name="cpv_select">Изаберите</string>
-    <string name="cpv_transparency">Транспарентност</string>
-</resources>
