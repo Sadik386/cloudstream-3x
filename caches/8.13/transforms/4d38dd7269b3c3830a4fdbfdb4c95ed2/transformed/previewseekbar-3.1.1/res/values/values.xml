@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="previewseekbar_indicator_width">16dp</dimen>
+    <dimen name="previewseekbar_thumb_offset">10dp</dimen>
+    <item name="previewSeekBarMorphViewId" type="id"/>
+    <item name="previewSeekBarOverlayViewId" type="id"/>
+    <declare-styleable name="PreviewSeekBar">
+        <attr format="reference" name="previewFrameLayout"/>
+        <attr format="boolean" name="previewAnimationEnabled"/>
+        <attr format="boolean" name="previewEnabled"/>
+        <attr format="color" name="previewThumbTint"/>
+        <attr format="boolean" name="previewAutoHide"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cpv_custom">Tilpasset</string>
+    <string name="cpv_default_title">Velg en farge</string>
+    <string name="cpv_presets">Forhåndsinnstillinger</string>
+    <string name="cpv_select">Plukke ut</string>
+    <string name="cpv_transparency">Åpenhet</string>
+</resources>

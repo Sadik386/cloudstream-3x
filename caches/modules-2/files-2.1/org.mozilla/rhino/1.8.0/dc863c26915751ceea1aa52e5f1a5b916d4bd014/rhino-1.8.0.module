@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.mozilla",
+    "module": "rhino",
+    "version": "1.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "rhino-1.8.0.jar",
+          "url": "rhino-1.8.0.jar",
+          "size": 1262303,
+          "sha512": "330fb996b8c25eff92b2133d36b4a68994134222cfdf74a9eb44afcfb5181875ffd6722deb75861e6ac70b02ff7a5d66747397d279e7587b27af121092bd794b",
+          "sha256": "e7ff37ec00b4c19ea16f42b5b3a601616d559dbb76e65bc9d094bd6bda2a925d",
+          "sha1": "889636434674822ce2d14d6e92f7cf96726c6783",
+          "md5": "f1aed8c6aac3d1e65bf0331e826f8037"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rhino-1.8.0.jar",
+          "url": "rhino-1.8.0.jar",
+          "size": 1262303,
+          "sha512": "330fb996b8c25eff92b2133d36b4a68994134222cfdf74a9eb44afcfb5181875ffd6722deb75861e6ac70b02ff7a5d66747397d279e7587b27af121092bd794b",
+          "sha256": "e7ff37ec00b4c19ea16f42b5b3a601616d559dbb76e65bc9d094bd6bda2a925d",
+          "sha1": "889636434674822ce2d14d6e92f7cf96726c6783",
+          "md5": "f1aed8c6aac3d1e65bf0331e826f8037"
+        }
+      ]
+    }
+  ]
+}

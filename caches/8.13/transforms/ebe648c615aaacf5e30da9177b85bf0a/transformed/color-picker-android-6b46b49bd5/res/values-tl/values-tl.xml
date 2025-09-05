@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cpv_custom">Custom</string>
+    <string name="cpv_default_title">Pumili ng Kulay</string>
+    <string name="cpv_presets">Preset</string>
+    <string name="cpv_select">Pumili</string>
+    <string name="cpv_transparency">Aninaw</string>
+</resources>

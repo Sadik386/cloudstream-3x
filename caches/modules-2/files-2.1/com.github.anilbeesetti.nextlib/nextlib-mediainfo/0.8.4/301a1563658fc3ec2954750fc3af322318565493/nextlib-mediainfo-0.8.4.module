@@ -1,0 +1,91 @@
+{
+  "formatVersion" : "1.1",
+  "createdBy" : {
+    "gradle" : {
+      "version" : "8.11.1"
+    }
+  },
+  "component" : {
+    "group" : "com.github.anilbeesetti",
+    "module" : "nextlib",
+    "version" : "0.8.4",
+    "attributes" : {
+      "org.gradle.status" : "release"
+    }
+  },
+  "variants" : [ {
+    "name" : "releaseApiElements-published",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.jvm.environment" : "android",
+      "org.gradle.usage" : "java-api",
+      "org.jetbrains.kotlin.platform.type" : "androidJvm"
+    },
+    "dependencies" : [ {
+      "group" : "org.jetbrains.kotlin",
+      "module" : "kotlin-stdlib",
+      "version" : {
+        "requires" : "2.1.0"
+      }
+    } ],
+    "files" : [ {
+      "name" : "nextlib-mediainfo-0.8.4.aar",
+      "url" : "nextlib-mediainfo-0.8.4.aar",
+      "size" : 14256023,
+      "sha512" : "683002899c4b224952bd4a4283c82057a8875c8f3fa8463d2c854debcad205cfd03c6761448a587f4b696f38b2d89465fc322a5f6cc9a2cf09a83e3360ff5052",
+      "sha256" : "8df3cd47f75de26be3c0ee7eb4837cc962454da9fbca8ae5b6924f9d7095b383",
+      "sha1" : "3ff17931e14e5aaf661f464f543c3097a5b611a5",
+      "md5" : "ef781a1b01db521c7177ead64053b611"
+    } ]
+  }, {
+    "name" : "releaseRuntimeElements-published",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.jvm.environment" : "android",
+      "org.gradle.usage" : "java-runtime",
+      "org.jetbrains.kotlin.platform.type" : "androidJvm"
+    },
+    "dependencies" : [ {
+      "group" : "androidx.annotation",
+      "module" : "annotation",
+      "version" : {
+        "requires" : "1.9.1"
+      }
+    }, {
+      "group" : "org.jetbrains.kotlin",
+      "module" : "kotlin-stdlib",
+      "version" : {
+        "requires" : "2.1.0"
+      }
+    } ],
+    "files" : [ {
+      "name" : "nextlib-mediainfo-0.8.4.aar",
+      "url" : "nextlib-mediainfo-0.8.4.aar",
+      "size" : 14256023,
+      "sha512" : "683002899c4b224952bd4a4283c82057a8875c8f3fa8463d2c854debcad205cfd03c6761448a587f4b696f38b2d89465fc322a5f6cc9a2cf09a83e3360ff5052",
+      "sha256" : "8df3cd47f75de26be3c0ee7eb4837cc962454da9fbca8ae5b6924f9d7095b383",
+      "sha1" : "3ff17931e14e5aaf661f464f543c3097a5b611a5",
+      "md5" : "ef781a1b01db521c7177ead64053b611"
+    } ]
+  }, {
+    "name" : "releaseSourcesElements-published",
+    "attributes" : {
+      "org.gradle.category" : "documentation",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.docstype" : "sources",
+      "org.gradle.jvm.environment" : "android",
+      "org.gradle.libraryelements" : "jar",
+      "org.gradle.usage" : "java-runtime",
+      "org.jetbrains.kotlin.platform.type" : "androidJvm"
+    },
+    "files" : [ {
+      "name" : "nextlib-mediainfo-0.8.4.jar",
+      "url" : "nextlib-mediainfo-0.8.4.jar",
+      "size" : 12333,
+      "sha512" : "59d06a89d18dac2c2f37820396ad78b127dbe6f072699d08d8a25b34279f81c77508f9d83050c42ddee3641e4daaa57ef6ec2f67fe9812641a148b9e7b6e9c91",
+      "sha256" : "331a76d5ff297a58a5097d751e906ee53bc81890f4ae21d7441c187ae819969b",
+      "sha1" : "db86c0207488263081facbbf18bd78b6e78fae97",
+      "md5" : "1f4e705b3bb6008d5f47fc2e2e7a0841"
+    } ]
+  } ]
+}

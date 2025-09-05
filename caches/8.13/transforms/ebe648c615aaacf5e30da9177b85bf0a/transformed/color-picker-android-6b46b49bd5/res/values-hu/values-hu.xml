@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cpv_custom">Egyedi</string>
+    <string name="cpv_default_title">Válasszon ki egy színt</string>
+    <string name="cpv_presets">Előbeállítások</string>
+    <string name="cpv_select">Válassza ki</string>
+    <string name="cpv_transparency">Átláthatóság</string>
+</resources>

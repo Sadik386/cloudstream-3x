@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cpv_custom">관습</string>
+    <string name="cpv_default_title">색상을 선택하세요</string>
+    <string name="cpv_presets">사전 설정</string>
+    <string name="cpv_select">선택하다</string>
+    <string name="cpv_transparency">투명도</string>
+</resources>

@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.mozilla",
+    "module": "rhino-engine",
+    "version": "1.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "rhino-engine-1.8.0.jar",
+          "url": "rhino-engine-1.8.0.jar",
+          "size": 14253,
+          "sha512": "9f74ba03cad8a2b490124c3a4374a3fa970d7b6638f5002a7c1e002eac26ef28b43e2e86d8279b7a34a2052e59cfdd0b736f2b694244a2c134683af158c19591",
+          "sha256": "e41a13a43f569ad596336a8bcd2eaa417f014159b40b31927f5204c2ca96e0c0",
+          "sha1": "3e7ade277230f6e05d5d4395494e67c8b94bdd11",
+          "md5": "d7c3a6720f2541964f4a5b287a5e99d2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.mozilla",
+          "module": "rhino",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rhino-engine-1.8.0.jar",
+          "url": "rhino-engine-1.8.0.jar",
+          "size": 14253,
+          "sha512": "9f74ba03cad8a2b490124c3a4374a3fa970d7b6638f5002a7c1e002eac26ef28b43e2e86d8279b7a34a2052e59cfdd0b736f2b694244a2c134683af158c19591",
+          "sha256": "e41a13a43f569ad596336a8bcd2eaa417f014159b40b31927f5204c2ca96e0c0",
+          "sha1": "3e7ade277230f6e05d5d4395494e67c8b94bdd11",
+          "md5": "d7c3a6720f2541964f4a5b287a5e99d2"
+        }
+      ]
+    }
+  ]
+}

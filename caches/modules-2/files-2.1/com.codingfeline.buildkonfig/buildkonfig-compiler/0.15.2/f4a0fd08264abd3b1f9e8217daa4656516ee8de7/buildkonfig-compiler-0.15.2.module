@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.codingfeline.buildkonfig",
+    "module": "buildkonfig-compiler",
+    "version": "0.15.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "buildkonfig-compiler-0.15.2.jar",
+          "url": "buildkonfig-compiler-0.15.2.jar",
+          "size": 39250,
+          "sha512": "cebe47aa2f0c8ad609709e6e4fed4a438dca164eb5fb03c821eaba33c905a40e016b2a0a116a87e7d0cc2ab89f77c5251326301060b461246d9b6f20ab62269f",
+          "sha256": "a567b5dd9b106e2cfd7bb16920c21ced67df5724b9988e0b9779d9731a5ee22c",
+          "sha1": "95842f8b5268a16b9f84e359445f98c996576e5c",
+          "md5": "c6fbc59e62826c589c05fa4230bd003d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.17.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "buildkonfig-compiler-0.15.2.jar",
+          "url": "buildkonfig-compiler-0.15.2.jar",
+          "size": 39250,
+          "sha512": "cebe47aa2f0c8ad609709e6e4fed4a438dca164eb5fb03c821eaba33c905a40e016b2a0a116a87e7d0cc2ab89f77c5251326301060b461246d9b6f20ab62269f",
+          "sha256": "a567b5dd9b106e2cfd7bb16920c21ced67df5724b9988e0b9779d9731a5ee22c",
+          "sha1": "95842f8b5268a16b9f84e359445f98c996576e5c",
+          "md5": "c6fbc59e62826c589c05fa4230bd003d"
+        }
+      ]
+    }
+  ]
+}

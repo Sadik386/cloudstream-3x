@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cpv_custom">Mukautettu</string>
+    <string name="cpv_default_title">Valitse väri</string>
+    <string name="cpv_presets">Esiasetukset</string>
+    <string name="cpv_select">Valitse</string>
+    <string name="cpv_transparency">Läpinäkyvyys</string>
+</resources>

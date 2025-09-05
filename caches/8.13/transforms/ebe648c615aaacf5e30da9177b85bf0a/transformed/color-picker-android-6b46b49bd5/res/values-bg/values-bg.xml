@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cpv_custom">Персонализиран</string>
+    <string name="cpv_default_title">Изберете цвят</string>
+    <string name="cpv_presets">Предварителни настройки</string>
+    <string name="cpv_select">Изберете</string>
+    <string name="cpv_transparency">Прозрачност</string>
+</resources>

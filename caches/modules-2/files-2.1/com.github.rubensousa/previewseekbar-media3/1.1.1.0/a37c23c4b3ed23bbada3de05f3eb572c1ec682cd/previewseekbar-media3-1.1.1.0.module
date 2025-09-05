@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.rubensousa",
+    "module": "previewseekbar-media3",
+    "version": "1.1.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.rubensousa",
+          "module": "previewseekbar",
+          "version": {
+            "requires": "3.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "previewseekbar-media3-1.1.1.0.aar",
+          "url": "previewseekbar-media3-1.1.1.0.aar",
+          "size": 6051,
+          "sha512": "e27d004e5fb7f4f24e3126721569b138311526e590bdaedbf33977e04b8dc27b247f42a95eb2f239b9b264a03fc1d6f1d99ec064d569228e13a98e190ef7796b",
+          "sha256": "a786c24d3344a8fde3fd4a91ab74a7a2e4f0ad6f9c99091262bd754025c847f0",
+          "sha1": "7dc912334de5d6344304effda306c5f728a383f4",
+          "md5": "1022b2475be4f5e8f7977d681b336562"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-ui",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "com.github.rubensousa",
+          "module": "previewseekbar",
+          "version": {
+            "requires": "3.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "previewseekbar-media3-1.1.1.0.aar",
+          "url": "previewseekbar-media3-1.1.1.0.aar",
+          "size": 6051,
+          "sha512": "e27d004e5fb7f4f24e3126721569b138311526e590bdaedbf33977e04b8dc27b247f42a95eb2f239b9b264a03fc1d6f1d99ec064d569228e13a98e190ef7796b",
+          "sha256": "a786c24d3344a8fde3fd4a91ab74a7a2e4f0ad6f9c99091262bd754025c847f0",
+          "sha1": "7dc912334de5d6344304effda306c5f728a383f4",
+          "md5": "1022b2475be4f5e8f7977d681b336562"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "previewseekbar-media3-1.1.1.0-sources.jar",
+          "url": "previewseekbar-media3-1.1.1.0-sources.jar",
+          "size": 3330,
+          "sha512": "707b9508227d15fdb76bad3ebbb6667acbc6fafa2ba692038210589bde483808b23fbb9b6425ac79aeb2541efee5a5557c4acd83478d23d0faca52d7fa8ec254",
+          "sha256": "c70b0cb8eeb45d2ebce2f1eb5aafc5e4e8d743da582be54ff668edbfe0fa93b0",
+          "sha1": "7464a7c983bc0512b68958a2aef0c3e06a4d595c",
+          "md5": "04142752b18b105a78e6d408fecda273"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "previewseekbar-media3-1.1.1.0-javadoc.jar",
+          "url": "previewseekbar-media3-1.1.1.0-javadoc.jar",
+          "size": 311221,
+          "sha512": "24690ce01ab1f71e98573616c987a94fa6e17239d200a568b8cb6194bf5fb30e1d841cf1ec0ede3c58078ee5a6ac0c4b3666c5a764c019139f943424507f62e8",
+          "sha256": "7260b2c871c846b0b6c22d2a17887bd3db89a44462d6491d9ee51f2f2b57c92f",
+          "sha1": "640bb44b18621b7613e8f8b312ac829313154e59",
+          "md5": "469a3ee422b5de67e013f225983a1a36"
+        }
+      ]
+    }
+  ]
+}

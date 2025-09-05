@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- do_not_remove: published-with-gradle-metadata -->
+<modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.teamnewpipe.NewPipeExtractor</groupId>
+  <artifactId>NewPipeExtractor</artifactId>
+  <version>v0.24.6</version>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.teamnewpipe.NewPipeExtractor</groupId>
+      <artifactId>extractor</artifactId>
+      <version>v0.24.6</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.teamnewpipe.NewPipeExtractor</groupId>
+      <artifactId>timeago-parser</artifactId>
+      <version>v0.24.6</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

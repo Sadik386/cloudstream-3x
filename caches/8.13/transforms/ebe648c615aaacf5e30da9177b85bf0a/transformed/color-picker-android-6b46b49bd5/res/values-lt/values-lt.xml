@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cpv_custom">Pasirinktinis</string>
+    <string name="cpv_default_title">Pasirinkite spalvą</string>
+    <string name="cpv_presets">Išankstiniai nustatymai</string>
+    <string name="cpv_select">Pasirinkite</string>
+    <string name="cpv_transparency">Skaidrumas</string>
+</resources>
