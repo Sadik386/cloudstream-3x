@@ -1040,7 +1040,7 @@ open class FullScreenPlayer : AbstractPlayerFragment() {
     val holdhandler = Handler(Looper.getMainLooper())
     var hasTriggeredSpeedUp = false
     val holdRunnable = Runnable {
-        player.setPlaybackSpeed(4.0f)
+        player.setPlaybackSpeed(3.0f)
         playerBinding?.playerSpeedupButton?.isGone = false
         hasTriggeredSpeedUp = true
     }
@@ -1857,7 +1857,7 @@ open class FullScreenPlayer : AbstractPlayerFragment() {
                 showSubtitleOffsetDialog()
             }
 
-            playerRew.setOnClickListener {
+            playerRew.setOnClickListener
                 autoHide()
                 rewind()
             }
